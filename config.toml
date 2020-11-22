@@ -1,3 +1,11 @@
 baseURL = "https://ziglaunch.org/"
 languageCode = "en-us"
 title = "Zig Launch"
+theme = "cupper"
+
+[menu]
+nav = [
+    { weight = 1, name = "Home", url = "/" },
+    { weight = 2, name = "Posts", url = "/posts/" },
+    { weight = 3, name = "RSS", url = "/index.xml" },
+]
