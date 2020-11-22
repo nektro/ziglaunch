@@ -1,4 +1,4 @@
-baseURL = "https://ziglaunch.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Zig Launch"
 theme = "cupper"
