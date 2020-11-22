@@ -6,7 +6,7 @@ date: 2020-11-22T14:50:08-08:00
 The classic "Hello World!" program.
 
 ## src/main.zig
-```
+```zig
 const std = @import("std");
 
 pub fn main() anyerror!void {
@@ -15,7 +15,7 @@ pub fn main() anyerror!void {
 ```
 
 ## build.zig
-```
+```zig
 const Builder = @import("std").build.Builder;
 
 pub fn build(b: *Builder) void {

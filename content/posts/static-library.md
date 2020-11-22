@@ -8,7 +8,7 @@ Here, the `export` keyword is used to signify that the `add` function will be av
 Additionally, we see `test` blocks being used to ensure that our function behaves correctly. These blocks are ran when using `zig test`.
 
 ## src/main.zig
-```
+```zig
 const std = @import("std");
 const testing = std.testing;
 
@@ -22,7 +22,7 @@ test "basic add functionality" {
 ```
 
 ## build.zig
-```
+```zig
 const Builder = @import("std").build.Builder;
 
 pub fn build(b: *Builder) void {
