@@ -1,3 +1,6 @@
 [submodule "themes/cupper"]
 	path = themes/cupper
 	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod

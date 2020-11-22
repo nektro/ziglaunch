@@ -1,11 +1,16 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Zig Launch"
-theme = "cupper"
+theme = "papermod"
 
-[menu]
-nav = [
-    { weight = 1, name = "Home", url = "/" },
-    { weight = 2, name = "Posts", url = "/posts/" },
-    { weight = 3, name = "RSS", url = "/index.xml" },
-]
+[params.homeInfoParams]
+Title = "Welcome to ZigLaunch.org"
+Content = """
+- Welcome to **Zig Launch**. Here you'll find a collection of introductory files to help get you jump started into using the [Zig programming language](https://ziglang.org/).
+- Zig is a simple but very powerful language. Soon, you'll be on your way to making anything from your next little utility, website, compiling and using C code, to even making an operating system.
+-
+- ## Further Reading
+- Click here for the [language reference](https://ziglang.org/documentation/master/).
+- Click here for the [standard library documentation](https://ziglang.org/documentation/master/std/).
+- Click here for [ziglearn.org](https://ziglearn.org/), a more general introduction to the language.
+"""
