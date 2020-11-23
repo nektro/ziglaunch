@@ -13,4 +13,8 @@ Content = """
 - Click here for the [language reference](https://ziglang.org/documentation/master/).
 - Click here for the [standard library documentation](https://ziglang.org/documentation/master/std/).
 - Click here for [ziglearn.org](https://ziglearn.org/), a more general introduction to the language.
+-
+- ## Contributing
+- Want to request or add your own examples to the site? We're on Github!
+- https://github.com/nektro/ziglaunch
 """
