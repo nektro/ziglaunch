@@ -16,7 +16,8 @@ pub fn main() anyerror!void {
 
 ## build.zig
 ```zig
-const Builder = @import("std").build.Builder;
+const std = @import("std");
+const Builder = std.build.Builder;
 
 pub fn build(b: *Builder) void {
     const target = b.standardTargetOptions(.{});
