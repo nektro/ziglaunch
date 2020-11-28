@@ -1,9 +1,9 @@
 ---
-title: "Cross Compiled Freestanding Library For Embedded Target"
+title: "Cross Compiled Freestanding Library For Cortex M4"
 date: 2020-11-27T19:42:02-08:00
 ---
 
-In this case we'll be compiling for an nRF52 Development Kit, which contains a Cortex-M4 processor with FPU. We use the freestanding OS tag since we are not using libc on our device. See [the Zig docs](https://ziglang.org/documentation/master/std/#std;Target) for a full list of supported targets
+This example demonstrates how to set up a freestanding static library for a cross-compiled target, which can be used to incrementally replace C functions with Zig functions. In this case we'll be compiling for an nRF52 Development Kit, containing a Cortex-M4 processor with FPU. We use the freestanding OS tag since we are not using libc on our device. See [the Zig docs](https://ziglang.org/documentation/master/std/#std;Target) for a full list of supported targets
 
 It will output a static library called `ziglaunch.a`. An existing C program compiled with `arm-none-eabi-gcc` can then call these functions by passing `-lziglaunch` to the linker.
 
